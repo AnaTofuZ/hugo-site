@@ -92,6 +92,11 @@ languageCode = "ja"
             icon = "fa-facebook"
             url = "https://www.facebook.com/AnaTofuZ/"
             title = "FaceBook"
+        [[params.social.list]]
+            class = "fas"
+            icon = "fa-envelope"
+            url = "mailto:anatofuz@gmail.com"
+            title = "E-Mail"
  
 
     #Specify what is showin in the Accordion
