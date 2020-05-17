@@ -184,7 +184,7 @@ languageCode = "ja"
 
     [params.link]
         title = "Links"
-        icon = "fas fa-briefcase"
+        icon = "fas fa-link"
 
         [[params.link.list]]
             title  = "SpeakerDeck"
