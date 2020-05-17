@@ -23,32 +23,125 @@ languageCode = "ja"
         location = "沖縄とか"
       photo = "icon.png"
 
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/AnaTofuZ"
+            title = "GitHub"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-twitter"
+            url = "https://twitter.com/AnaTofuZ"
+            title = "Twitter"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-facebook"
+            url = "https://www.facebook.com/AnaTofuZ/"
+            title = "FaceBook"
+ 
+
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
         item = "aboutme"
         expand = true   # true for the section that is initially expanded
     [[params.showInAccordion]]
-        item = "experience"
-    [[params.showInAccordion]]
         item = "education"
-    [[params.showInAccordion]]
-        item = "publication"
+#    [[params.showInAccordion]]
+#        item = "publication"
     [[params.showInAccordion]]
         item = "project"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
         item = "hobby"
+    [[params.showInAccordion]]
+        item = "link"
 
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "沖縄にいる大学院生。インターネットではアナグラ(`AnaTofuZ`)と呼ばれています。低レイヤー周りを研究していますが、 関係ないプログラミングをしている時間の方が長いかもしれません。プログラミング言語ではPerlが好きですが、最近はgolangとContianuton Based Cを書いています。"
 
-  github = "AnaTofuZ"
-  facebook = "AnaTofuZ"
-  twitter = "AnaTofuZ"
-  email = "anatofuz@gmail.com"
-  utterances = "example/example.github.io"
-  avatar = "https://pbs.twimg.com/profile_images/1153141142998794240/Yt9814c5_400x400.jpg"
-  url = "https://anatofuz.net"
+#    [params.experience]
+#        title = "Experiences"
+#        icon = "fas fa-briefcase"
+#
+#        [[params.experience.list]]
+#            position = "大学院生"
+#            dates = "2018 - 2019"
+#            link = "#"
+#            company = "Company Name"
+#
+
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "修士(在籍中)"
+            college = "琉球大学大学院理工学研究科情報工学専攻"
+            dates = "2019 - "
+        [[params.education.list]]
+            degree = "学部"
+            college = "琉球大学工学部情報工学科"
+            dates = "2015 - 2019"
+
+    # Project section
+    [params.project]
+        title = "Projects"
+        icon = "fas fa-project-diagram"
+
+        [[params.project.list]]
+            title = "Acme::MadokaMagica"
+            url = "https://github.com/AnaTofuZ/perl-acme-MadokaMagica"
+            description = "初めて作ったPerlモジュール。魔法少女まどか☆マギカの登場人物の情報が取得できます。"
+
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "Perl"
+            skillrating = 70
+ 
+    [params.hobby]
+        title = "Hobbies"
+        icon = "fas fa-gamepad"
+
+        [[params.hobby.list]]
+        hobby = "プログラミング"
+        [[params.hobby.list]]
+        hobby = "Perl考古学(Perl1.0, Perl2.0)"
+        [[params.hobby.list]]
+        hobby = "Raku"
+        [[params.hobby.list]]
+        hobby = "落語"
+        [[params.hobby.list]]
+        hobby = "dlsiteで同人ゲーを買うこと"
+
+    [params.link]
+        title = "Links"
+        icon = "fas fa-briefcase"
+
+        [[params.link.list]]
+            title  = "SpeakerDeck"
+            link = "https://speakerdeck.com/AnaTofuZ"
+            details = "登壇資料を置いています"
+ 
+        [[params.link.list]]
+            title  = "並列信頼研"
+            link = "http://www.cr.ie.u-ryukyu.ac.jp/"
+            details = "在籍している研究室です"
+
+        [[params.link.list]]
+            title  = "crgrowi"
+            link = "https://growi.cr.ie.u-ryukyu.ac.jp/"
+            details = "研究室のgrowiです"
