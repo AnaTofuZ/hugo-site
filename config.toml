@@ -1,3 +1,54 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://anatofuz.net"
+theme = "aafu"
+languageCode = "ja"
+
+[params]
+  title = "AnaTofuZ's page"
+  author = "AnaTofuZ"
+  description = "Takahiro SHIMIZU"
+  blog = "anatofuz.hatenablog.com"
+
+    [params.theme]
+        # Available themes are 'light', 'dark', and 'pinkish'
+        mainTheme = "light"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = true
+        singlePage = false
+
+
+    # Profile section
+    [params.profile]
+      name = "Takahiro Shimizu"
+        tagline = "@AnaTofuZ"
+        location = "沖縄とか"
+      photo = "icon.png"
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "hobby"
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+  github = "AnaTofuZ"
+  facebook = "AnaTofuZ"
+  twitter = "AnaTofuZ"
+  email = "anatofuz@gmail.com"
+  utterances = "example/example.github.io"
+  avatar = "https://pbs.twimg.com/profile_images/1153141142998794240/Yt9814c5_400x400.jpg"
+  url = "https://anatofuz.net"
