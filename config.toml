@@ -21,7 +21,7 @@ languageCode = "ja"
       name = "Takahiro Shimizu"
         tagline = "@AnaTofuZ"
         location = "沖縄とか"
-      photo = "icon.png"
+      photo = "./icon.png"
 
     # Section for links to social websites
     [params.social]
