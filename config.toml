@@ -205,3 +205,13 @@ languageCode = "ja"
             title  = "雰囲気で構築するオレオレwebサイト"
             link = "https://www.anatofuz.net/work/gcpug/5/slide.html"
             details = "[GCPUG in Okinawa!#5-GCPは意思決定が加速するよ-](https://okipug.connpass.com/event/80264/)での発表資料です"
+
+        [[params.link.list]]
+            title  = "Acme::AnaTofuZ"
+            link = "https://anatofuz.hatenablog.com/"
+            details = "技術ブログです"
+
+        [[params.link.list]]
+            title  = "Acme::AnaTofuZ::Scrapbox"
+            link = "https://scrapbox.io/anatofuz/"
+            details = "個人で使っている公開用のscrapboxです。わりとプライベートな方に書いてしまいますが。"
