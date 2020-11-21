@@ -1,6 +1,9 @@
 baseURL = "https://anatofuz.net"
 theme = "aafu"
 languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+
 
 [params]
   title = "AnaTofuZ's page"
@@ -97,7 +100,7 @@ languageCode = "ja"
             icon = "fa-envelope"
             url = "mailto:anatofuz@gmail.com"
             title = "E-Mail"
- 
+
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -157,6 +160,11 @@ languageCode = "ja"
             url = "https://github.com/AnaTofuZ/perl-acme-MadokaMagica"
             description = "初めて作ったPerlモジュール。魔法少女まどか☆マギカの登場人物の情報が取得できます。"
 
+        [[params.project.list]]
+            title = "琉球大学知能情報コース2020年新システム紹介"
+            url = "https://ie.u-ryukyu.ac.jp/syskan/opening-introduction/"
+            description = "修士2年のときにシステム管理チームとして、学科のシステムを構築しました"
+
     # Skill section
     [params.skill]
         title = "Skills"
@@ -166,7 +174,7 @@ languageCode = "ja"
         [[params.skill.list]]
             skill = "Perl"
             skillrating = 70
- 
+
     [params.hobby]
         title = "Hobbies"
         icon = "fas fa-gamepad"
@@ -190,7 +198,7 @@ languageCode = "ja"
             title  = "SpeakerDeck"
             link = "https://speakerdeck.com/AnaTofuZ"
             details = "登壇資料を置いています"
- 
+
         [[params.link.list]]
             title  = "並列信頼研"
             link = "http://www.cr.ie.u-ryukyu.ac.jp/"
